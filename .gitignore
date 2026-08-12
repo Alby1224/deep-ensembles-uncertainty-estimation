@@ -1,0 +1,41 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Lightning / checkpoints
+checkpoints/
+lightning_logs/
+*.ckpt
+*.pt
+*.pth
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.local
+
+# Large Raw Datasets (downloaded on demand)
+data/*.tar.gz
+data/*.zip
+data/svhn/
+data/cifar-10-batches-py/
